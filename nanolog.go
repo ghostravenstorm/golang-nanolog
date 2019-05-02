@@ -26,11 +26,12 @@ var LogLevel int = 3
 ///
 /// All log levels equal to or less than the set log level will
 /// print to console.
-/// 0 = No Logging
-/// 1 = Errors only.
-/// 2 = Warnings and Errors.
-/// 3 = All info statments.
-/// 4 = Debugging & trace.
+/// 0  = No Logging
+/// 1  = Errors only.
+/// 2  = Warnings and Errors.
+/// 3  = All info statments.
+/// 4  = Debugging & trace.
+/// 5+ = User defined priority.
 ///
 
 const (
